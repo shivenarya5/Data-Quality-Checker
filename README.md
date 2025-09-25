@@ -38,12 +38,14 @@ This tool runs **automated readiness checks**:
 
 ### Backend
 ```bash
+
 cd ai-data-readiness-checker
 pip install -r requirements.txt
 uvicorn server:app --reload
 
-Frontend
 npm install
 npm start
+
+```
 
 Then open: http://localhost:3000
